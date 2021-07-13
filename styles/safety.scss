@@ -1,0 +1,46 @@
+@import url(/styles/shared.css);
+
+// Start First SectionOn Safety
+.heading-banner-and-text {
+    height: 80vh;
+    background-image: url(/assets/images/safety-heading-banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 6px;
+    background-size: cover;
+
+    p {
+        font-family: 'poppinsSemiBold', sans-serif;
+        font-size: 55px;
+        font-weight: 600;
+        color: white;
+    }
+}
+// End First SectionOn Safety
+
+// Start safety Third Section
+.box-wrapper {
+    background-color: #ECF4F3;
+    border-radius: 6px;
+    height: 300px;
+    width: 80%;
+    h2 {
+        font-size: 24px;
+        font-family: 'poppinsSemiBold', sans-serif;
+        font-weight: 600
+    }
+
+    p {
+        font-family: 'robotoMediumFont', sans-serif;
+        font-size: 18px;
+
+    }
+
+}
+// End safety Third Section
+
+@media only screen and (max-width: 600px) { 
+    .box-wrapper {
+        height: auto;
+    }
+}

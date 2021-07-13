@@ -2,6 +2,7 @@
 $primary_color: #073D55;
 $secondary_color: #54C1AF;
 $paragraph_color: #1F201F;
+$thumbnails_color_font: #4B4B4B;
 
 
 @font-face {
@@ -35,10 +36,30 @@ $paragraph_color: #1F201F;
     color: $paragraph_color;
 }
 
+.first-heading-of-sections {
+    color: $secondary_color;
+    font-family: 'robotoMediumFont', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.second-heading-of-sections {
+    color: $primary_color;
+    font-family: 'poppinsSemiBold', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+
+.thumbnails-color-font {
+    color: $thumbnails_color_font;
+}
 .paragraph-font {
     font-family: 'robotoNormalFont', sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 400;
+    line-height: 34px;
 }
 
 .heading-of-privacy-and-policy-paragraphs {
