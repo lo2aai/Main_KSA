@@ -1,1 +1,10 @@
-/* No CSS *//*# sourceMappingURL=home.css.map */
+body, html {
+  height: 500px;
+}
+
+a {
+  font-size: 2rem;
+  background: red;
+  color: white;
+}
+/*# sourceMappingURL=home.css.map */
