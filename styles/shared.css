@@ -1,0 +1,62 @@
+@font-face {
+  font-family: robotoNormalFont;
+  src: url(/assets/fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: robotoMediumFont;
+  src: url(/assets/fonts/Roboto/Roboto-Medium.ttf);
+}
+
+@font-face {
+  font-family: poppinsSemiBold;
+  src: url(/assets/fonts/Poppins/Poppins-SemiBold.ttf);
+}
+
+.primary-color,
+.primary-color:hover {
+  color: #073D55;
+}
+
+.secondary-color,
+.secondary-color:hover {
+  color: #54C1AF;
+}
+
+.paragraph-color {
+  color: #1F201F;
+}
+
+.paragraph-font {
+  font-family: 'robotoNormalFont', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.heading-of-privacy-and-policy-paragraphs {
+  font-family: 'robotoMediumFont', sans-serif;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.list-of-privacy-and-policy {
+  font-family: 'robotoNormalFont', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 38px;
+  padding-left: 40px;
+}
+
+.list-of-privacy-and-policy ul li {
+  padding: 8px 0;
+}
+
+#navbar .nav-link {
+  color: #073D55;
+}
+
+.nav-item a {
+  font-family: 'robotoNormalFont', sans-serif;
+  font-size: 18px;
+}
+/*# sourceMappingURL=shared.css.map */

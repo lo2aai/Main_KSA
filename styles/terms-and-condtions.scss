@@ -1,0 +1,47 @@
+@import url(/styles/shared.css);
+
+
+// Start Header Section
+.heading-section {
+    margin: 0 auto;
+    p {
+        font-family: 'robotoMediumFont', sans-serif;
+        text-transform: uppercase;
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    h1 {
+        font-family: 'poppinsSemiBold', sans-serif;
+        font-size: 35px;
+        font-weight: 600;
+        
+    }
+}
+// End Header Section
+
+// Start Terms And Condition Call To Action
+.terms-and-condition-call-to-action {
+
+    h2 {
+        font-family: 'poppinsSemiBold', sans-serif;
+        font-size: 35px;
+        font-weight: 600;
+        line-height: 49px;
+    }
+
+    button {
+        padding: 14px 25px;
+        color: white;
+        background: #54C1AF;
+        border-radius: 6px;
+        margin: 0 auto;
+        border: none;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    
+}
+
+// End Terms And Condition Call To Action
+
