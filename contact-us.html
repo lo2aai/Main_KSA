@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles/intlTelInput.min.css">
+    <link rel="stylesheet" href="/styles/contact-us.css">
+</head>
+
+<body>
+
+    <!-- Start Contact Us -->
+    <div class="container-fluid contact-us-wrapper">
+        <div class="row wrapper-row">
+            <div class="col-md-6 left-side-of-contact-us">
+                <div class="content-wrapper d-flex flex-column justify-content-between p-4">
+                    <div class="row main-logo-container">
+                        <a href="/index.html">
+                            <img src="/assets/images/main_logo.png" alt="Main Logo">
+                        </a>
+                    </div>
+                    <div class="row heading-container">
+                        <div class="col-md-6 text-center mx-auto">
+                            <p class="first-heading-of-sections">
+                                Contact Us
+                            </p>
+                            <h1 class="second-heading-of-sections">
+                                We’re looking forward to hearing from you!
+                            </h1>
+                        </div>
+                    </div>
+
+                    <div class="row text-center">
+                        <div class="col-md-4">
+                            <p class="contact-heading">
+                                Mobile number
+                            </p>
+                            <p class="contact-data primary-color">
+                                +009 6656 3672 777
+                            </p>
+                        </div>
+                        <div class="col-md-4">
+                            <p class="contact-heading">
+                                Whatsapp number
+                            </p>
+                            <p class="contact-data primary-color">+009 6656 3672 777</p>
+                        </div>
+                        <div class="col-md-4">
+                            <p class="contact-heading">
+                                Email address
+                            </p>
+                            <p class="contact-data primary-color">main@mainhc.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 right-side-of-contact-us">
+                <div class="content-wrapper d-flex flex-column justify-content-between p-4">
+                    <div class="row">
+                        <a class="home-anchor primary-color" href="/index.html">
+                            Back To Home
+                        </a>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-8 mx-auto">
+                            <form>
+                                <div class="row text-center pb-4">
+                                    <div class="col-md-8 mx-auto">
+
+                                        <h1 class="form-heading primary-color">
+                                            Send us an email and we will get back to you.
+                                        </h1>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <input type="email" class="form-control" placeholder="Enter your email address"
+                                        id="exampleInputEmail1" aria-describedby="emailHelp">
+                                </div>
+                                <div class="mb-3 ">
+                                    <input type="tel" placeholder="xxxx xxxx xx" class="form-control" id="phone">
+
+                                </div>
+                                <div class="mb-3">
+                                    <textarea style="resize: none;" class="form-control"
+                                        placeholder="Write Your Message" id="exampleFormControlTextarea1"
+                                        rows="8"></textarea>
+                                </div>
+                                <button type="submit" class="btn submit-btn">Send us your message!</button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-8 mx-auto">
+
+                            <div class="social-links text-center">
+                                <p>
+                                    Or send us on social media
+                                </p>
+                                <div class="social-links-icons">
+                                    <a class="px-2" href="#">
+                                        <img src="/assets/images/fb-icon.svg" alt="Facebook Icon">
+                                    </a>
+                                    <a class="px-2" href="#">
+                                        <img src="/assets/images/twitter-icon.svg" alt="Twitter Icon">
+                                    </a>
+                                    <a class="px-2" href="#">
+                                        <img src="/assets/images/instagram-icon.svg" alt="Instagram Icon">
+                                    </a>
+                                    <a class="px-2" href="#">
+                                        <img src="/assets/images/snapchat-icon.svg" alt="Snapchat Icon">
+                                    </a>
+                                    <a class="px-2" href="#">
+                                        <img src="/assets/images/youtube-icon.svg" alt="YouTube Icon">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Contact Us -->
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script src="/scripts/contact-us.js"></script>
+    <script src="/assets/js/intlTelInput.min.js"></script>
+    <!-- INITIALIZE PHONE INPUT -->
+    <script>
+        var input = document.querySelector("#phone");
+        window.intlTelInput(input, {
+            separateDialCode: true,
+            // any initialization options go here
+        });
+    </script>
+
+</body>
+
+</html>
