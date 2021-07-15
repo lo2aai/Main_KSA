@@ -90,6 +90,12 @@ $thumbnails_color_font: #4B4B4B;
     .nav-link { 
         color: $primary_color
     }
+
+    .navbar-brand {
+        img {
+            width: 144px;
+        }
+    }
 }
 // End Navbar Section
 

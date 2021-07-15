@@ -75,6 +75,10 @@
   color: #073D55;
 }
 
+#navbar .navbar-brand img {
+  width: 144px;
+}
+
 .nav-item a {
   font-family: 'robotoNormalFont', sans-serif;
   font-size: 18px;

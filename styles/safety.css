@@ -15,6 +15,27 @@
   color: white;
 }
 
+.heading-banner-and-text-on-mobile {
+  height: 80vh;
+  background-image: url(/assets/images/safety-heading-for-mobile.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+  background-size: cover;
+}
+
+.heading-banner-and-text-on-mobile p {
+  font-family: 'poppinsSemiBold', sans-serif;
+  font-size: 55px;
+  font-weight: 600;
+  color: white;
+}
+
+.safety-second-section .col-md-4 img {
+  width: 96px;
+  height: 96px;
+}
+
 .box-wrapper {
   background-color: #ECF4F3;
   border-radius: 6px;
@@ -38,6 +59,26 @@
 }
 
 @media only screen and (max-width: 600px) {
+  #navbar .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .heading-banner-and-text-on-mobile p {
+    font-size: 30px;
+  }
+  .heading-of-section .first-heading-of-sections {
+    font-size: 21px;
+  }
+  .heading-of-section .second-heading-of-sections {
+    font-size: 30px;
+  }
+  .safety-fourth-section .px-sm-0 {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+  .thumbnails-color-font {
+    margin-top: 0 !important;
+  }
   .box-wrapper {
     height: auto;
   }
