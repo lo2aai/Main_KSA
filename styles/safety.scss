@@ -2,12 +2,12 @@
 
 // Start First SectionOn Safety
 .heading-banner-and-text {
-    height: 80vh;
+    height: 95vh;
     background-image: url(/assets/images/safety-heading-banner.png);
     background-position: center;
     background-repeat: no-repeat;
-    border-radius: 6px;
-    background-size: cover;
+    border-radius: 12px;
+    background-size: 100% 100%;
 
     p {
         font-family: 'poppinsSemiBold', sans-serif;
@@ -18,12 +18,12 @@
 }
 
 .heading-banner-and-text-on-mobile {
-    height: 80vh;
+    height: 95vh;
     background-image: url(/assets/images/safety-heading-for-mobile.png);
     background-position: center;
     background-repeat: no-repeat;
-    border-radius: 6px;
-    background-size: cover;
+    border-radius: 12px;
+    background-size: 100% 100%;
 
     p {
         font-family: 'poppinsSemiBold', sans-serif;
@@ -101,6 +101,36 @@
     .thumbnails-color-font {
         margin-top: 0 !important;
     }
+    .box-wrapper {
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 576px) and (min-width: 340px) {
+    .heading-banner-and-text-on-mobile {
+        height: 60vh;
+    }
+
+}
+
+
+@media only screen and (max-width: 767px) and (min-width: 577px) {
+    .heading-banner-and-text-on-mobile {
+        height: 62vh;
+    }
+}
+
+
+@media only screen and (max-width: 1867px) and (min-width: 768px) {
+    .heading-banner-and-text-on-mobile {
+        background-size: cover;
+        height: 70vh;
+    }
+}
+
+
+
+@media only screen and (max-width: 1867px) and (min-width: 768px) {
     .box-wrapper {
         height: auto;
     }
